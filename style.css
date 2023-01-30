@@ -1,0 +1,41 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center !important;
+padding: 2rem;
+flex-wrap: wrap;
+width: 80%;
+height: auto;
+}
+.item img{
+
+    width: 250px;
+    height: 110px;
+}
+.item{
+    margin: 40px;
+    overflow: hidden;
+    border-radius:15px ;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.411);
+    width: 250px;
+    text-align: center;
+
+}
+.pagebtn{
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.26);
+    margin: 0px 15px;
+    width: 50px;
+    height: 50px;
+    border-color: azure;
+    border-radius: 50%;
+}
